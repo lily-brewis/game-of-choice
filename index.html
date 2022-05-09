@@ -9,9 +9,16 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Game of Choice .</tw-noscript></noscript></tw-story>
-<tw-storydata name="Game of Choice " startnode="1" creator="Twine" creator-version="2.3.16" ifid="6B923C79-3B12-458F-AD84-1EB051BA6A9D" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome" tags="" position="654,93" size="100,100">This is a Game of Choice.
+<tw-storydata name="Game of Choice " startnode="1" creator="Twine" creator-version="2.3.16" ifid="6B923C79-3B12-458F-AD84-1EB051BA6A9D" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">game-of-choice [data-tags~="example-background"] {
+    background-image: url(./images/bridge.jpg);  
+    background-size: cover;  
+    background-repeat: no-repeat;  
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome" tags="" position="654,93" size="100,100">This is a Game of Choice.
 [[A]]
-[[B]]</tw-passagedata><tw-passagedata pid="2" name="A" tags="" position="602,210" size="100,100">Congratulations! You were born a Trust Fund Baby!
+[[B]]
+
+
+[[test-&gt;guinea pig]] </tw-passagedata><tw-passagedata pid="2" name="A" tags="" position="602,210" size="100,100">Congratulations! You were born a Trust Fund Baby!
 
 Click [[here]] to see your generic backstory </tw-passagedata><tw-passagedata pid="3" name="B" tags="" position="724,208" size="100,100">You got: Rags to riches!
 Because everyone loves an underdog. 
@@ -21,7 +28,7 @@ Because everyone loves an underdog.
 You work for the man, you put money into his pocket. Better luck next time.</tw-passagedata><tw-passagedata pid="5" name="Gifted Kid Burnout " tags="" position="326,51" size="100,100">You got: Gifted Kid Burnout 
 The pressure from mummy and daddy was just too much. They wanted you to be something you&#39;re not. Better luck next time. </tw-passagedata><tw-passagedata pid="6" name="Desk Jockey " tags="" position="132,123" size="100,100">You got: Desk Jockey</tw-passagedata><tw-passagedata pid="7" name="Man on a ledge " tags="" position="18,11" size="100,100">You&#39;re a man on a ledge. Would you like to use your [[lifeline]]? 
 
-some variation of - you can 99start over, but things will be different99</tw-passagedata><tw-passagedata pid="8" name="lifeline" tags="" position="197,12" size="100,100">re-insert into one of the stages??</tw-passagedata><tw-passagedata pid="9" name="Keep Playing" tags="" position="186,339" size="100,100">Pursue a [[messy divorce]] or an [[unhappy marriage]] </tw-passagedata><tw-passagedata pid="10" name="messy divorce" tags="" position="66,337" size="100,100">one in three marriages ends in divorce, but none of them quite as messy and noteworthy as yours. enjoy the tabloid covers and court dates. 
+some variation of - you can 99start over, but things will be different99</tw-passagedata><tw-passagedata pid="8" name="lifeline" tags="" position="197,12" size="100,100">re-insert into one of the stages??</tw-passagedata><tw-passagedata pid="9" name="Keep Playing" tags="" position="185,339" size="100,100">Pursue a [[messy divorce]] or an [[unhappy marriage]] </tw-passagedata><tw-passagedata pid="10" name="messy divorce" tags="" position="66,337" size="100,100">one in three marriages ends in divorce, but none of them quite as messy and noteworthy as yours. enjoy the tabloid covers and court dates. 
 [[better luck next time-&gt;Welcome]]</tw-passagedata><tw-passagedata pid="11" name="unhappy marriage" tags="" position="184,457" size="100,100">scandals and affairs, work life balance, staying together for the kids; pick your poison. every year you will don your sunday best and smile for the family christmas card. a family portrait hangs in the gallery hallway of your palacial, empty house, and the ghosts of your mona lisa children smile down on you. 
 two options (one leads to suicide, the other???)</tw-passagedata><tw-passagedata pid="12" name="Play on" tags="generic-backstory-#2" position="748,328" size="100,100">Your parents are dead. Or one of them is. Or none of them. But at least one of them is a substance abusing low-life of some sort. Pick your poison!  
 WHile you&#39;re at it, pick your path - [[diamond in the rough]] or [[other]] choice that leads to one thing that leads to a dead end, mirror in rich side. </tw-passagedata><tw-passagedata pid="13" name="here" tags="generic-backstory-#1" position="568,331" size="100,100">You were born into the highest of high society. Daddy is a big fish with deep pockets and mummy is a real housewife, and she&#39;s real glamourous. Your life is laid out on a silver platter, and its time to dig in. 
@@ -48,7 +55,7 @@ Click here to [[exit-&gt;Welcome]] or [[Keep Playing]]
 </tw-passagedata><tw-passagedata pid="28" name="stick to your guns" tags="" position="822,675" size="100,100">you get bullied out
 you live a normal life 
 you end up like your parents, the apple doesn&#39;t fall far from the tree 
-you take a chance and become successful (is this the kind of message the game is sending though?) </tw-passagedata></tw-storydata>
+you take a chance and become successful (is this the kind of message the game is sending though?) </tw-passagedata><tw-passagedata pid="29" name="guinea pig" tags="example-background" position="835,70" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
